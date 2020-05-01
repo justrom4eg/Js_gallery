@@ -1,0 +1,23 @@
+.images {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.images img {
+    width: 100%;
+    display: none;
+}
+
+.images img:first-child {
+    display: block;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.buttons input{
+    width: 100px;
+    height: 60px;
+    font-size: 30px;
+}
