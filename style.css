@@ -1,15 +1,20 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: black;
+}
+
 .images {
     width: 600px;
+    height: 610px;
     margin: 0 auto;
+    position: relative;
 }
 
 .images img {
     width: 100%;
-    display: none;
-}
-
-.images img:first-child {
-    display: block;
+    position: absolute;
+    opacity: 0;
 }
 
 .buttons {
@@ -20,4 +25,9 @@
     width: 100px;
     height: 60px;
     font-size: 30px;
+}
+
+.images img.showed {
+    opacity: 1;
+    transition: 2s;
 }
